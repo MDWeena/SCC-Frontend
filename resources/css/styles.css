@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+    /* background: #f5f5f5; */
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.LR{
+    padding-left: 40px;
+}
+.pic{
+    padding-left: 15px;
+    border-radius: 20px;
+    height: 350px;
+    margin: 20px;
+
+}
+.pic img{
+    width: 250px;
+    height: 250px;
+    /* margin: 20px; */
+    transition: transform .2s;
+    border-radius: 10px;
+}
+
+.pic img:hover{
+    transform: scale(1.1);
+    /* border-radius: 50px; */
+}
+
+.glider-contain{
+    width: 82% !important;
+    margin-top: 80px;
+    margin-bottom: 5%;
+    padding-left: 30px;
+}
+.glider-next{
+    right: -60px;
+    top: 50%;
+}
+
+.glider-prev{
+    left: -20px;
+    top: 50%;
+    width: 28.58px;
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
